@@ -1,6 +1,6 @@
 {
-  "name": "chat",
-  "version": "0.0.0",
+  "name": "barebones-chat",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -14,5 +14,18 @@
     "morgan": "~1.5.1",
     "serve-favicon": "~2.2.0",
     "ws": "^0.7.2"
-  }
+  },
+  "description": "This repository provides a simple Express server that listens on a websocket, as well as a simple page JS that connects to that websocket.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/portlandcodeschool-jsi/barebones-chat.git"
+  },
+  "author": "Erin Call <ecall@portlandcodeschool.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/portlandcodeschool-jsi/barebones-chat/issues"
+  },
+  "homepage": "https://github.com/portlandcodeschool-jsi/barebones-chat"
 }
