@@ -1,5 +1,5 @@
 $(function() {
-  var socket = new WebSocket("ws://localhost:3001/");
+  var socket = new WebSocket("ws://" + window.location.host + "/");
 
   socket.onmessage = function(message){
     console.log('got a message: ')
